@@ -92,12 +92,13 @@ costo total.
 
 ![out](https://user-images.githubusercontent.com/110297/45984241-b8b51c00-c025-11e8-8fa4-a390016bee9d.gif)
 
-Además la clienta nos ha dado un [link a la documentación](https://laboratoria.github.io/burger-queen-api/)
+Además la clienta nos ha dado un 
+[link a la documentación](https://app.swaggerhub.com/apis/ssinuco/BurgerQueenAPI/2.0.0)
 que especifica el comportamiento esperado de la API HTTP que deberás consumir.
 Ahí puedes encontrar todos los detalles de los _endpoints_, como por ejemplo
 qué parámetros esperan, qué deben responder, etc.
 
-El objetivo principal de es aprender a construir una _interfaz web_ usando
+El objetivo principal es aprender a construir una _interfaz web_ usando
 el _framework_ elegido (React, Angular o Vue). Todos estos frameworks de
 Front-end tratan de solucionar el mismo problema: **cómo mantener la interfaz
 y el estado sincronizados**. Así que esta experiencia espera familiarizarte con
@@ -492,11 +493,11 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ## 4. Consideraciones
 
-Este proyecto se debe "resolver" de a pares. Recuerda que deberas de consumir una
-API que desarrollaran tus compañeras, sin embargo no debes esperar a que esta API
-este terminada para empezar a codear, puedes utilizar herramientas
-como [nock](https://github.com/nock/nock), [json-server](https://www.npmjs.com/package/json-server)
-o [mockoon](https://mockoon.com) para mockear la API.
+Este proyecto se debe "resolver" de a pares. Recuerda que deberás de consumir una
+API que desarrollará otro equipo backend contratado por nuestro cliente. No podemos esperar
+a que este terminada la API para empezar a codear. Por lo que este 
+[repositorio](https://github.com/ssinuco/burger-queen-api-mock/blob/main/README.md)
+para crear un mock del API.
 
 Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
 hasta la historia que puedas en el tiempo especificado.
@@ -691,8 +692,6 @@ para mantener actualizado el menú.
 * [Babel](https://babeljs.io/)
 * [webpack](https://webpack.js.org/)
 * [json-server](https://www.npmjs.com/package/json-server)
-* [mockoon](https://mockoon.com)
-* [nock](https://github.com/nock/nock)
 
 ### PWA
 
