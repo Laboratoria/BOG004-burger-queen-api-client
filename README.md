@@ -7,7 +7,8 @@
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones](#4-consideraciones)
 * [5. Criterios de aceptación del proyecto](#5-criterios-de-aceptación-del-proyecto)
-* [6. Pistas / tips](#6-pistas--tips)
+* [6. Hacker Edition](#6-hacker-edition)
+* [7. Pistas / tips](#7-pistas--tips)
 
 ***
 
@@ -495,7 +496,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 Este proyecto se debe "resolver" de a pares. Recuerda que deberás de consumir una
 API que desarrollará otro equipo backend contratado por nuestro cliente. No podemos esperar
-a que este terminada la API para empezar a codear. Por lo que este 
+a que este terminada la API para empezar a codear. Por lo que usaremos el siguiente este 
 [repositorio](https://github.com/ssinuco/burger-queen-api-mock/blob/main/README.md)
 para crear un mock del API.
 
@@ -658,6 +659,10 @@ la plataforma para mantener actualizado la informacion de mis trabajadorxs.
 
 ***
 
+## 6. Hacker Edition
+
+Como Hacker Edition te proponemos implementar la siguiente historia de usuario:
+
 #### [Historia de usuario 6] Administrador(a) de tienda debe administrar a sus productos
 
 Yo como administrador(a) de tienda quiero gestionar los productos
@@ -679,7 +684,7 @@ para mantener actualizado el menú.
 
 ***
 
-## 6. Pistas / Tips
+## 7. Pistas / Tips
 
 ### Frameworks / libraries
 
