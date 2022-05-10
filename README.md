@@ -14,7 +14,8 @@
 
 ## 1. Preámbulo
 
-[React](https://reactjs.org/) y [Angular](https://angular.io/)
+[Prototipo](https://www.figma.com/file/x8PdlPTRHwlWqt54b1DaYm/Untitled?node-id=0%3A1
+) y [Planificacion](https://www.figma.com/file/UdeZV0vZYIsPzOqhaNkuns/Burguer-Queen?node-id=0%3A1)
 son algunos de los _frameworks_ y _librerías_ de JavaScript más utilizados por
 lxs desarrolladorxs alrededor del mundo, y hay una razón para eso.
 En el contexto del navegador, [_mantener la interfaz sincronizada con el estado
