@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
+import Logo from '../assest/logo.png';
 
 export const Navbar = () => {
     return (
@@ -8,7 +9,7 @@ export const Navbar = () => {
                 className="navbar-brand"
                 to="/"
             >
-                < img src='../components/assest/logo.png' alt='logo' />
+                < img src={Logo} alt='logo' />
             </Link>
 
             <div className="navbar-collapse">
