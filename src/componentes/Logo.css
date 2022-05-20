@@ -1,0 +1,17 @@
+.Logo {
+    height: 40vmin;
+    pointer-events: none;
+    display: flex;
+    position: relative;
+  }
+
+  .Burguer {
+      position: absolute;
+
+  }
+
+  .Crown {
+    position: absolute;
+    top: 80%;
+    left: 41;
+  }
