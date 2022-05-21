@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.Logo {
+  height: 40vmin;
+  pointer-events: none;
+  display: flex;
+  position: relative;
+}
+
+.Burguer {
+    position: absolute;
+
+}
+
+.Crown {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  transform: rotate(-30deg);
+}
