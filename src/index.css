@@ -6,17 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:#0F1110;
+  color: #fbf6f6;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/*
-@media (min-width: 860px){
-  .Login {
-    padding: 0;
-  }
-  
-}*/
+
 

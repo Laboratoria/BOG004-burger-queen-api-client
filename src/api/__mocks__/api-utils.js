@@ -5,7 +5,13 @@ export class UserApi {
         return new Promise(
             (resolve, reject)=>{
                 if(user.email === "admin@gmail.com"){
-                    resolve( new User() );
+                    let user = new User();
+                    user.email = "admin@gmail.com";
+                    user.id = "1";
+                    user.roles = {
+                        "admin": true
+                    };
+                    resolve( user );
                 }
                 reject(new Error("Usuario o contraseña invalidos"));
             }

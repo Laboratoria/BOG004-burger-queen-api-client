@@ -23,7 +23,7 @@ class App extends React.Component {
 
   login(user){
     //1. llamar al servicio
-    this.userApi.login(user)
+    return this.userApi.login(user)
     .then(
       (apiUser) => {        
         this.setState({user: apiUser});        
@@ -31,7 +31,8 @@ class App extends React.Component {
     )
     .catch(
       (error)=>{ 
-        //TODO: hay quye hacer algo
+        console.log(error.message);
+        throw new Error("Error en autenticación");
       } 
     );    
   }
@@ -42,13 +43,12 @@ class App extends React.Component {
 
   render() {
     return <div className="App">
-      <div>{this.state.user?this.state.user.email:'No autenticado'}</div>
     <Router>                
       <Routes>
         <Route path="/waiter" element={<Waiter user={this.state.user} logoutFn={this.logout} />} />
         <Route path="/admin" element={<Admin user={this.state.user} logoutFn={this.logout} />} />
         <Route path="/chef" element={<Chef user={this.state.user} logoutFn={this.logout} />} />
-        <Route path="/" element={<Login loginFn={this.login} user={this.state.user}/>} />
+        <Route path="/" element={<Login user={this.state.user} loginFn={this.login} />} />
 
       </Routes>
       
