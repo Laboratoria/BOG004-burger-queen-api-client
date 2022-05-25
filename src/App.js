@@ -18,7 +18,7 @@ class App extends React.Component {
     };
     this.login = this.login.bind(this);
     this.logout = this.logout.bind(this);
-    this.userApi = new UserApi();    
+    this.userApi = new UserApi();
   }
 
   login(user){
@@ -41,15 +41,15 @@ class App extends React.Component {
     this.setState({user: undefined});
   }
 
+  
   render() {
     return <div className="App">
     <Router>                
       <Routes>
-        <Route path="/waiter" element={<Waiter user={this.state.user} logoutFn={this.logout} />} />
+        <Route path="/waiter" element={<Waiter user={this.state.user} logoutFn={this.logout} tablesCount={12}/>} />
         <Route path="/admin" element={<Admin user={this.state.user} logoutFn={this.logout} />} />
         <Route path="/chef" element={<Chef user={this.state.user} logoutFn={this.logout} />} />
         <Route path="/" element={<Login user={this.state.user} loginFn={this.login} />} />
-
       </Routes>
       
     </Router>    
