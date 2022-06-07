@@ -14,18 +14,19 @@ export default function Summary(props) {
 
     return (
         <div className="Summary">
-            {Array.from(props.products.values()).map(item =>
-                <div className="childSumary" key={item.product.id}>
-                    <button className="material-symbols-outlined ">add_circle</button>
-                    <span>{item.qty}</span>
-                    <button className="material-symbols-outlined">do_not_disturb_on</button>
-                    <span>{item.product.name}</span>
-                    <span>${item.product.price * item.qty}</span>
-                </div>)}
-                <div className="totalPay">
-                    Pagar <span>{calculateTotalPay()}</span>
-                </div>
-                <div className="send">Enviar</div>
+            {Array.from(props.products.values()).map(item => <div className="childSumary" key={item.product.id}>
+                <button className="material-symbols-outlined ">add_circle</button>
+                <span>{item.qty}</span>
+                <button className="material-symbols-outlined">do_not_disturb_on</button>
+                <span>{item.product.name}</span>
+                <span>${item.product.price * item.qty}</span>
+            </div>)}
+            <button className="totalPay">
+                Pagar <span>{calculateTotalPay()}</span>
+            </button>
+            <div className="btn-send">
+                <button className="send">Enviar</button>
+            </div>
         </div>
     );
 

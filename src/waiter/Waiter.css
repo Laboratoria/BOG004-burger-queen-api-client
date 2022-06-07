@@ -70,16 +70,17 @@
 }
 
 .Summary {
-  display: flex;
-  align-content: center;
-  grid-template-columns: 100%;
-  width: 90%;
-  overflow-y: auto;
-  align-self: flex-end;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: stretch;
-  height: 464px;
+    display: flex;
+    align-content: center;
+    grid-template-columns: 100%;
+    width: 90%;
+    overflow-y: auto;
+    align-self: flex-end;
+    flex-direction: column;
+    justify-content: flex-starts;
+    align-items: stretch;
+    height: 464px;
+    margin: 10px auto auto auto;
 }
 
 .childSumary {
@@ -126,6 +127,12 @@
   margin-right: 40px;
 }
 
+.btn-send{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
 .send {
   width: 80px;
   height: 40px;
@@ -133,6 +140,11 @@
   background-color: #fdc029;
 }
 
+.box-customer{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
 
 .Customer{
   color: white;
