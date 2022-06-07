@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prod": "npm run build && serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
     "eject": "react-scripts eject"
@@ -22,7 +23,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:react-hooks/recommended"
     ]
   },
   "browserslist": {
@@ -38,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^13.2.0"
+    "@testing-library/react": "^13.2.0",
+    "eslint-plugin-react-hooks": "^4.5.0"
   }
 }
